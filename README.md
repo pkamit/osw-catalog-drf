@@ -9,6 +9,20 @@ osw catalog api
 7) $ docker-compose run --rm app sh -c "django-admin startproject app ."
 8) docker compose for db setup
 9) git hub actions is pending
+
+===============================
+  122  git clone https://github.com/pkamit/osw-catalog-api.git
+  123  git status
+  124  git add .
+  125  git checkout -b dev-1.0.1
+  126  git add .
+  127  git commit -m 'Docker ssetup'
+  128  git push origin dev-1.0.1:dev-1.0.1
+  129  git push
+  130  git push origin master
+  131  git push origin main
+  132  git push origin dev-1.0.1:main
+
 =========================
 Build Again:
     151  docker-compose down
