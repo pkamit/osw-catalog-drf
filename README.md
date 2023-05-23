@@ -1,3 +1,6 @@
+Success:
+Hard work >> Patience >> Sacrifice >> Consistency >> Discipline >> Self confidence
+
 # osw-catalog-api
 osw catalog api
 1) git project
@@ -22,6 +25,15 @@ osw catalog api
   130  git push origin master
   131  git push origin main
   132  git push origin dev-1.0.1:main
+
+  139  git pull origin main
+  140  git checkout main
+  141  git merge feature/dev-1.0.1
+  142  git merge dev-1.0.1
+  143  git tag v1.0.0
+  144  git push origin main --tags
+  145  git status
+  146  git checkout dev-1.0.1
 
 =========================
 Build Again:
@@ -166,3 +178,8 @@ https://www.youtube.com/watch?v=8LHdbaV7Dvo
 
 python manage.py dumpdata oscar.apps.catalogue.Product > products.json
 python manage.py loaddata products.json
+
+
+=======================
+formatter
+black > Shift+Alt+F
