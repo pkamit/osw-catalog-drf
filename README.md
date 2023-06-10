@@ -41,8 +41,13 @@ Build Again:
     152  docker-compose down --volumes
     153  docker-compose build
     154  docker-compose up
+    $ docker-compose run --rm app sh -c "python manage.py createsuperuser"
 
+=======================
+django debug toolbar
+https://www.youtube.com/watch?v=qWLk9S6mvAY&t=0s
 
+https://www.google.com/search?q=prefetch_Related+with+examples&client=firefox-b-d&sxsrf=APwXEddwk6JEJ5PzWq7cv4RkXH8huMKArQ:1686013783312&source=lnms&tbm=vid&sa=X&ved=2ahUKEwiG34_luq3_AhURXWwGHXxzBMYQ_AUoAnoECAIQBA&biw=1536&bih=739&dpr=1.25#fpstate=ive&vld=cid:d3a19d01,vid:5-UN4YPDDQc
 ==========
 10) Updated user model and write the test cases
 11) created super user
@@ -183,3 +188,22 @@ python manage.py loaddata products.json
 =======================
 formatter
 black > Shift+Alt+F
+
+=====================
+leetcode
+https://www.youtube.com/watch?v=9UtInBqnCgA&list=PLot-Xpze53lfQmTEztbgdp8ALEoydvnRQ
+https://leetcode.com/problems/add-two-numbers/
+
+https://www.programiz.com/python-programming/online-compiler/
+
+https://testdriven.io/blog/drf-serializers/
+====================
+http://localhost:8000/api/
+
+{
+    "category": "http://localhost:8000/api/category/",
+    "product": "http://localhost:8000/api/product-new/",
+    "product-new": "http://localhost:8000/api/product-new/",
+    "attribute-values": "http://localhost:8000/api/attribute-values/",
+    "attribute": "http://localhost:8000/api/attribute/"
+}
